@@ -206,39 +206,39 @@ Answer: Typescript can improve code quality and maintainability. It can help dev
 
 1. Typescript's main purpose is to check static type checking. It can help to get error on compile time.
 
-    Example:
+   Example:
 
-    ```bash
-    const add = (num1: number, num2: number): number => num1+num2;
+   ```bash
+   const add = (num1: number, num2: number): number => num1+num2;
 
-    add(5, "10") // It shows you error in compile time
-    ```
+   add(5, "10") // It shows you error in compile time
+   ```
 
 2. It helps for auto-completion and intellisense. Typescript IDE has some advantages. Which can increase developer's productivity.
      
-    A. Auto Completion
-    B. function parameter and object key showing
-    C. Documentation preview
+   A. Auto Completion
+   B. function parameter and object key showing
+   C. Documentation preview
 
 
 3. Its better for refactoring. When developers have to change variable name, function name or type, it helps to correctly change everywhere. It is helpful for large project.
 
 4. Typescript code has self documentation advantage. When a developer write code by defining type other developer easily understand why that code wrote, what that return.
 
-    Example:
+   Example:
 
-    ```bash
-    type User = {
-    name: string,
-    age: number,
-    address?: string,
-    }
-    ```
+   ```bash
+   type User = {
+   name: string,
+   age: number,
+   address?: string,
+   }
+   ```
 
 5. TypeScript has Code Scalability. When big team work on large project
-    a. Developer can write clean code.
-    b. Developer find error and understand easily.
-    c. It is easy to understand for new developer.
-    d. If code will change, It doesn't break.
+   a. Developer can write clean code.
+   b. Developer find error and understand easily.
+   c. It is easy to understand for new developer.
+   d. If code will change, It doesn't break.
     
 6. Integration: Typescript is superset of javascript. So, old javascript project will easily migrate in typescript.
