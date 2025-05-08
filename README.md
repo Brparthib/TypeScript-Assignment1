@@ -204,7 +204,7 @@ Answer: In Typescript interface and type both are user for define the type. But 
 
 Answer: Typescript can improve code quality and maintainability. It can help developer to build large project on various purpose.
 
-    1. Typescript's main purpose is to check static type checking. It can help to get error on compile time.
+   1. Typescript's main purpose is to check static type checking. It can help to get error on compile time.
 
     Example:
 
@@ -214,16 +214,16 @@ Answer: Typescript can improve code quality and maintainability. It can help dev
     add(5, "10") // It shows you error in compile time
     ```
 
-    2. It helps for auto-completion and intellisense. Typescript IDE has some advantages. Which can increase developer's productivity.
+   2. It helps for auto-completion and intellisense. Typescript IDE has some advantages. Which can increase developer's productivity.
      
      A. Auto Completion
      B. function parameter and object key showing
      C. Documentation preview
 
 
-    3. Its better for refactoring. When developers have to change variable name, function name or type, it helps to correctly change everywhere. It is helpful for large project.
+   3. Its better for refactoring. When developers have to change variable name, function name or type, it helps to correctly change everywhere. It is helpful for large project.
 
-    4. Typescript code has self documentation advantage. When a developer write code by defining type other developer easily understand why that code wrote, what that return.
+   4. Typescript code has self documentation advantage. When a developer write code by defining type other developer easily understand why that code wrote, what that return.
 
     Example:
 
