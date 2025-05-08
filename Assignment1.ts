@@ -18,29 +18,9 @@
     return items.filter((item) => item.rating >= 4);
   };
 
-  /*
-  Problem 3:
-  Description: Create a generic function that concatenates multiple arrays of the same type using rest parameters.
-
-  Function Signature:
-
-  function concatenateArrays<T>(...arrays: T[][]): T[]
-  Example:
-
-  concatenateArrays(["a", "b"], ["c"]);       // Output: ["a", "b", "c"]
-  concatenateArrays([1, 2], [3, 4], [5]);     // Output: [1, 2, 3, 4, 5]
-  */
-
-  // const concatenateArrays = <T>(...arrays: T[][]): T[] => {
-  //   return arrays;
-  // };
-
-  // console.log(concatenateArrays(["a", "b"], ["c"]));
-  // console.log(concatenateArrays([1, 2], [3, 4], [5]));
-
-  // #######################
-
-  // #######################
+  const concatenateArrays = <T>(...arrays: T[][]): T[] => {
+    return arrays.reduce((prev, curr) => prev.concat(curr));
+  };
 
   class Vehicle {
     public make: string;
@@ -112,9 +92,13 @@
     return "Weekday";
   };
 
-  /*
-  
-  */
-
-
+  const squareAsync = async (n: number): Promise<number> => {
+    return new Promise<number>((resolve, reject) => {
+      if (n >= 0) {
+        resolve(n * n);
+      } else {
+        reject("Error: Negative number not allowed");
+      }
+    });
+  };
 }
